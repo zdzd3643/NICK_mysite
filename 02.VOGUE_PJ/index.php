@@ -32,8 +32,12 @@
     <script type="module" src="./js/main.js"></script>
   </head>
   <body>
+    <!-- 로그인 처리 인클루드파일 호출 -->
+    <?php include "inc/login_session.inc" ?>
+
     <!-- 1.상단영역 -->
     <?php include "inc/top_area.inc" ?>
+
     <!-- 2.메인영역 -->
     <div id="main-area">
       <main class="main-area ibx">
@@ -100,6 +104,8 @@
     </div>
     <!-- 3.하단영역 -->
     <?php include "inc/footer_area.inc" ?>
+
+
     <!-- 위로가기버튼 -->
     <a href="#" class="tbtn fi fi-angle-up">
       <span class="ir">위로가기버튼</span>
