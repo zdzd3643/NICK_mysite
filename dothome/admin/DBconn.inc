@@ -2,9 +2,9 @@
 
 /// DB연결 문자열 ///
 $servername = "localhost";//DB서버명
-$username = "tombap";//닷홈아이디
-$password = "p73parker!";//닷홈비번
-$dbname = "tombap";//닷홈DB명
+$username = "zdzd3643";//닷홈아이디
+$password = "dlehdduq1!";//닷홈비번
+$dbname = "zdzd3643";//닷홈DB명
 
 /// DB서버와 연결하기 ///
 $conn = new mysqli(
